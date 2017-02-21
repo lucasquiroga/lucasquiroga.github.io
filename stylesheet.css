@@ -1,0 +1,87 @@
+/*
+* Colors 
+* 
+* 
+*/
+html, body, h1, h2, h3, h4, p, div, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 200;
+	list-style: none;
+	text-decoration: none;
+}
+/**/
+@font-face {
+
+}
+/* Responsive */
+@media screen and (min-width:600px)  {
+
+}
+body {
+	background: rgb(0, 0, 0);
+}
+.backdrop {
+	width: 100vw;
+	height: 100vh;
+	/*
+	background: url(images/background/starrynightsky.jpg), black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	*/
+}
+h1, h2 {
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 100;
+	color: #FFFFFF;
+	margin-right: 25%;
+	margin-left: 25%;
+	padding-top: 10px;
+}
+#deal:hover {
+	cursor: url(), auto;
+}
+.buttons img, .buttons input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+.buttons img {
+	height: 200px;
+	margin: 7px;
+	height: 225px;
+	border: 10px solid rgb(255, 255, 255);
+	border-radius: 10px;
+}
+.buttons input {
+	margin-bottom: 20px;
+	background-color: transparent;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid white;
+}
+#caos img {
+	margin: 7px;
+	height: 225px;
+	border: 10px solid rgb(255, 255, 255);
+	border-radius: 10px;
+}
+#hand img {
+	margin: 7px;
+	height: 225px;
+	border: 10px solid rgb(255, 255, 255);
+	border-radius: 10px;
+}
+.orientationDown {
+	transform: rotate(180deg);
+}
